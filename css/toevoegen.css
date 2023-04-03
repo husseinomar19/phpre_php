@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: url('/img/inlogimg3.jpg');
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 6rem;
+    text-shadow: 10px 10px 10px  rgba(0, 0, 0,5);
+    box-shadow: 10px 10px 10px 10px  rgb(248, 248, 248);
+
+}
+main header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Pacifico', cursive;
+    color: #fff;
+    margin-top: 2rem;
+}
+.gerchttoevoegen form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+form label{
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+}
+form input{
+    height: 30px ;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    color: #fff;
+    width: 350px;
+}
+#img{
+    display: none;
+
+}
+#imglabel{
+    font-size: 1rem;
+    text-align: center;
+    background-color: #31333f;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem;
+}
+form button{
+    font-size: 1rem;
+    text-align: center;
+    background-color: #31333f;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 1rem; 
+    padding: 1rem;
+    border: none;
+}
+form button:hover{
+background-color: #202126;
+}
+.backtoadmin{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.backtoadmin a{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.backtoadmin a:hover{
+    border-bottom: 1px solid white;
+}
+.toadmin i{
+    color: #fff;
+}
+.toadmin {
+    margin-bottom: 1rem;
+}
+.toadmin a:hover{
+    border-bottom: 1px solid white;
+}
