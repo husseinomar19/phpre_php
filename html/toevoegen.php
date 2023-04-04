@@ -17,9 +17,9 @@ if(isset($_POST['upload'])){
     // Execute the statement
     $stmt->execute();
     if(move_uploaded_file($IMGLOCATION,'C:\xampp\htdocs\gerechtenimg/'.$IMGNAAM )){
-        echo"<script type='text/javascript'>alert('goed gegeves');</script>";
+        echo"<script type='text/javascript'>alert('Opgeladen');</script>";
     }else{
-        echo"<script type='text/javascript'>alert('niet goed gegeves');</script>";
+        echo"<script type='text/javascript'>alert('niet opgeladen');</script>";
     }
 }
 ?>
